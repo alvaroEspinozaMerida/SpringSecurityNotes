@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:
+  datasource:
+    url: jdbc:mysql://localhost:3306/security_ex
+    username: root
+    password: Merid@32193
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
